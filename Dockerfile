@@ -1,6 +1,6 @@
 FROM paperspace/fastapi-deployment:latest
 
-WORKDIR D:/Pritesh/Datacore_Consultants/Projects/HuggingFace/Deliverables/AI_Image_Detector/app
+WORKDIR /ai_image_detector
 
 COPY main.py requirements.txt
 
