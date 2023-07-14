@@ -1,6 +1,6 @@
 FROM paperspace/fastapi-deployment:latest
 
-WORKDIR /ai_image_detector
+WORKDIR /app
 
 COPY main.py requirements.txt
 
